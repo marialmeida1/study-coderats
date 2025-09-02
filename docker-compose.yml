@@ -11,11 +11,16 @@ services:
   mobile:
       build: ./apps/mobile
       container_name: lldm-mobile
+      user: flutteruser
       ports:
         - "8080:8080"
       volumes:
         - ./apps/mobile:/home/flutteruser/app
-      tty: true  
+      tty: true
+      dns:
+        - 8.8.8.8
+        - 8.8.4.4
+      network_mode: bridge  
 
   mongo:
     image: mongo:7.0
