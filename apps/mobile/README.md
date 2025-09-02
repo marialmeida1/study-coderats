@@ -331,3 +331,12 @@ Se você encontrar problemas:
 ---
 
 Feliz desenvolvimento Flutter! 🚀📱
+
+
+
+CONTAINER ID   IMAGE                    COMMAND                  CREATED       STATUS                       PORTS     NAMES
+d2369446ea0f   study-coderats_backend   "docker-entrypoint.s…"   3 hours ago   Exited (137) 5 seconds ago             lldm-backend
+1ce42c5438d8   study-coderats_mobile    "sh"                     3 hours ago   Exited (137) 5 seconds ago             lldm-mobile
+79441ca7f2d1   mongo:7.0                "docker-entrypoint.s…"   3 hours ago   Exited (0) 15 seconds ago              lldm-mongo
+
+![alt text](image.png)
