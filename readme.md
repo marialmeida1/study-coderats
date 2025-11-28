@@ -5,7 +5,7 @@ A aplicação é composta por um **app mobile em Flutter** e um **backend em Nod
 
 ---
 
-## 🚀 Conceito Geral
+## 🚀 Conceito Geral   
 
 O objetivo é fornecer uma solução **offline-first** para registro de check-ins com foto e geolocalização, gestão de grupos e convites, além de evoluir futuramente para integrações com o **GitHub** e uso de **IA** para avaliação de código.
 
