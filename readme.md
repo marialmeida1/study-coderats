@@ -1,4 +1,4 @@
-# CodeRats  
+# CodeRats - Aplicação Mobile
 
 Este repositório contém o **monorepo** do projeto **CodeRats**, uma plataforma voltada para acompanhamento de atividades de desenvolvedores.  
 A aplicação é composta por um **app mobile em Flutter** e um **backend em Node.js (NestJS)**, utilizando **PostgreSQL** como banco primário e **SQLite** para cache e operações offline.
